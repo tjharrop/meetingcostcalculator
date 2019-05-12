@@ -322,11 +322,11 @@ $(function() {
 
 		});
 
-		// Convert from annual salary to per-hour cost, by dividing by 1950 (37.5  * 52)
+		// Convert from annual salary to per-hour cost, by dividing by 1829 (35  * 52)
 		// Convert from per-hour to per-second cost, by dividing by 3600 (60 s * 60 min)
 
 
-		newCost = annualValue / 1950 / 3600 * app.meetingCost.timeElapsedMoment.format('s');
+		newCost = annualValue / 1820 / 3600 * app.meetingCost.timeElapsedMoment.format('s');
 
 		// newCostRounded = _.parseInt(newCost * 100) / 100;
 
