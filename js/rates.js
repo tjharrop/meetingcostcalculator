@@ -6,14 +6,6 @@ app.organizations = {
   core: {
     name: "Core Public Service",
     hideDropdownLabels: 0
-  },
-  neb: {
-    name: "National Energy Board",
-    hideDropdownLabels: 0
-  },
-  caf: {
-    name: "Canadian Armed Forces",
-    hideDropdownLabels: 1
   }
 };
 
