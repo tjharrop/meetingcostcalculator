@@ -38,8 +38,8 @@ app.rates.core = [
     max: "116292"
   },
   {
-    label: "Contractor (Principal)",
-    description: "Senior contractor and technical staff",
+    label: "Contractor (Principal) / SES",
+    description: "Senior contractor (use for SES)",
     min: "220000",
     median: "260000",
     max: "300000"
