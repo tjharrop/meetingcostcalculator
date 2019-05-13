@@ -1,40 +1,6 @@
 ---
 layout: nosidenav
 ---
-		<!-- Bootstrap core CSS
-		<link href="./css/bootstrap.min.css" rel="stylesheet">
-		-->
-
-		<!-- FontAwesome -->
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-		<!-- Animate.css -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-		<link href="./css/meetingcost.css" rel="stylesheet">
-		<!-- Static navbar -->
-		<nav class="navbar navbar-default navbar-static-top">
-		  <div class="container">
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="#">Meeting Cost Calculator</a>
-		    </div>
-		    <div id="navbar" class="navbar-collapse collapse">
-
-		      <ul class="nav navbar-nav navbar-right">
-
-				<li><a href="#" data-toggle="modal" data-target="#aboutModal">About</a></li>
-				<!-- <li><a href="#">Français</a></li> -->
-				<!-- (Coming soon!) -->
-
-		      </ul>
-		    </div><!--/.nav-collapse -->
-		  </div>
-		</nav>
-
 
 		<div class="container">
 
@@ -127,14 +93,6 @@ layout: nosidenav
 								<i class="fa fa-check fa-fw" aria-hidden="true"></i>
 								Core Public Service
 							</a></li>
-							<li><a href="#" class="js-change-organization" data-organization="caf">
-								<i class="fa fa-fw" aria-hidden="true"></i>
-								Canadian Armed Forces
-							</a></li>
-							<li><a href="#" class="js-change-organization" data-organization="neb">
-								<i class="fa fa-fw" aria-hidden="true"></i>
-								National Energy Board
-							</a></li>
 							<li role="separator" class="divider"></li>
 							<li class="dropdown-header">Pay rate</li>
 							<li><a href="#" class="js-change-rate" data-rate="min">
@@ -178,40 +136,6 @@ layout: nosidenav
 			<div class="chairs-map"></div>
 
 		</div><!-- /.container -->
-
-
-		<div class="modal fade" tabindex="-1" role="dialog" id="aboutModal">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		        <h4 class="modal-title">About meetingcostcalculator.ca</h4>
-		      </div>
-		      <div class="modal-body">
-		        <p>
-		        	<b>Ever wondered how much your team meetings cost?</b> The Meeting Cost Calculator lets you calculate an estimated cost for meetings, using the standard pay rates used by a variety of public sector organizations.
-		        </p>
-		        <ul>
-			        <li>
-				        Data for the core public service is adapted from the <a href="https://www.tbs-sct.gc.ca/pubs_pol/hrpubs/coll_agre/rates-taux-eng.asp" target="_blank">TBS Rates of Pay</a> website, and data for the Canadian Armed Forces is adapted from the <a href="http://www.forces.gc.ca/en/caf-community-pay/pay-rates.page" target="_blank">DND Pay Rates website</a>.
-			        </li>
-			        <li>
-			        	Meeting costs are determined by converting annual salaries into hourly rates, then multiplying these against the elapsed time. Salary classifications with a range of levels are simplified to minimum, maximum, and median rates, which can be selected under the gear options menu.
-			        </li>
-		        </ul>
-		        <p>
-			        You can <a href="https://github.com/sboots/meetingcostcalculator" target="_blank"> find the source code</a> for this project on Github. Feedback and improvements are welcome!
-		        </p>
-		        <p>
-			        An <a href="http://ottawacivictech.ca/">Ottawa Civic Tech project</a>, built by <a href="https://twitter.com/sboots/">Sean Boots</a>. Thanks to Dan, Conor, Corey, David, Miceal, and Gordon for ideas and contributions!
-		        </p>
-		      </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-		      </div>
-		    </div><!-- /.modal-content -->
-		  </div><!-- /.modal-dialog -->
-		</div><!-- /.modal -->
 
 		<!-- Lodash templates -->
 <script type="text/template" id="chairContainerTemplate">
