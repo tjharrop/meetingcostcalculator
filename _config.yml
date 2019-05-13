@@ -1,16 +1,16 @@
-title: Name of product or service
+title: Meeting cost calculator
 
 email: tjharrop@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Simple explaination of the product or service.
-baseurl: "/use-NSW-jekyll" # the subpath of your site, e.g. /blog
+  Calculate the rough staffing cost of a meeting
+baseurl: "/meetingcostcalculator" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tjharrop
 github_username:  tjharrop
 
-browserTitle: NSW Gov prototyping demo
+browserTitle: NSW Meeting Calculator
 
-stage: prototype
+stage: tool
 
 # Build settings
 markdown: kramdown
