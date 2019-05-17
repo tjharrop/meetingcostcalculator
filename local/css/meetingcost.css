@@ -88,3 +88,7 @@ div.chair:hover {
 	}
 
 }
+
+body > footer > div > div > section > div > p, .au-header__brand img.au-header__brand-image {
+	display:none;	
+}
